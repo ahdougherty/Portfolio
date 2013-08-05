@@ -212,7 +212,6 @@ h4 {
     text-rendering: optimizeLegibility;
     margin: 0;
     padding: 0;
-    letter-spacing: -1px;
     text-decoration: none;
     }
 
@@ -264,6 +263,7 @@ h5, h5 a {
     text-rendering: optimizeLegibility;
     text-decoration: none;
     font-size: 12px;
+    letter-spacing: 1px;
 	}
 
 
