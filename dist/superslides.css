@@ -34,16 +34,22 @@
   left: 30px;
   width: 365px;
   }
+  
+#slides li .weblink {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 35px;
+  }
 
 
 #slides li .overlay {
+  position: absolute;
   bottom: 30px;
   left: 30px;
-  width: 365px;
+  width: 260px;
   background: rgba(255,255,255,.5);
-  border: .5px solid black;
-  border: 2px solid black;
-  padding: 7px 10px 7px 10px;
+  padding: 4px 4px 0 4px;
   }
 
 
@@ -92,7 +98,7 @@
   
   
 .slides-pagination a {
-  border: 1px solid #222;
+  border: 1px solid #181818;
   width: 10px;
   height: 10px;
   display: inline-block;
@@ -106,7 +112,7 @@
   
   
 .slides-pagination a.current {
-  background: #222;
+  background: #181818;
   }
 
 /*  About Background Color
@@ -164,8 +170,8 @@ h1 a:hover {
 
 
 h2 {
-    font-family: 'Courier New Bold', Monospace;
-    font-size: 11px;
+	font-family:"Apercu Bold", Calibri, sans-serif; 
+    font-size: 10px;
     color: #181818 ;
     text-rendering: optimizeLegibility;
     line-height: normal;
@@ -253,8 +259,8 @@ p {
 
 
 p a {
-	text-decoration: none;
-	color: #1e1e1e;
+	text-decoration: underline;
+	color: #181818;
 	}
 
 
@@ -276,7 +282,7 @@ h5, h5 a {
     color: #181818 ;
     text-rendering: optimizeLegibility;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
    	}
@@ -284,6 +290,7 @@ h5, h5 a {
 
 h5 a:hover{
 	color: blue;
+
 	-o-transition:color .2s ease-out, background 1s ease-in;
 	-ms-transition:color .2s ease-out, background 1s ease-in;
 	-moz-transition:color .2s ease-out, background 1s ease-in;
